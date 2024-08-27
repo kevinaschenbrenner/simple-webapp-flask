@@ -4,15 +4,15 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Azurefreak!"
+    return "Hallo, Herzlich Willkommen!"
 
 @app.route('/how are you')
 def hello():
     return 'I am good, how about you?'
 
-@app.route('/kevin')
+@app.route('/Bechtle')
 def hello():
-    return 'I am a Kevin'
+    return 'Bechtle GmbH IT-Systemhaus Nuernberg :)'
 
 
 if __name__ == "__main__":
